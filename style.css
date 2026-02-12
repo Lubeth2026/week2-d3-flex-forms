@@ -4,3 +4,12 @@ ul {
     justify-content: space-around;
       
 }
+.flex {
+   width: 250px;
+   height: 250px; 
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
