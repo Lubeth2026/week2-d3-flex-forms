@@ -26,3 +26,18 @@ ol {
 h2, footer {
     background-color: grey;
 }
+form {
+display: flex;
+flex-wrap: wrap;
+margin-top: 200px;
+margin-bottom: 200px;
+}
+.column {
+    flex-wrap: column;
+    display: flex;
+}
+.label {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}

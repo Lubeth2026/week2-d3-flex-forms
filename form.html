@@ -7,8 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header></header>
-    <main></main>
+    <header>
+        <h1>Advanced Form</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Fill out Form</h2>
+            <form action="#">
+                <div class="column">
+                <label  class="label" for="first">First Name</label>
+                <input type="text" name="first" id="first" placeholder="First">
+                <label class="label" for="last">Last Name</label>
+                <input type="text" name="last" id="last" placeholder="Last">
+                </div>
+                <div class="column">
+                <label class="label" for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="Email" required aria-required="true">
+                <label class="label" for="password">Password</label>
+                <input type="text" name="password" id="password" placeholder="Password" required aria-required="true" >
+                </div>
+                <button>Submit The Form</button>
+            </form>
+        </section>
+    </main>
     <footer>
         <ul>
             <li><a href="index.html">CSS/Styling</a></li>
