@@ -26,7 +26,7 @@ ol {
 h2, footer {
     background-color: grey;
 }
-form {
+.form {
 display: flex;
 flex-wrap: wrap;
 margin-top: 200px;
@@ -35,9 +35,10 @@ margin-bottom: 200px;
 .column {
     flex-wrap: column;
     display: flex;
+    padding: 50px;
 }
-.label {
+.input {
     display: flex;
-    flex-direction: column;
+    flex-wrap: column;
     width: 300px;
 }
