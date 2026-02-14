@@ -32,13 +32,15 @@ flex-wrap: wrap;
 margin-top: 200px;
 margin-bottom: 200px;
 }
-.column {
-    flex-wrap: column;
-    display: flex;
-    padding: 50px;
-}
 .input {
     display: flex;
     flex-wrap: column;
     width: 300px;
 }
+
+.column {
+    flex-direction: column;
+    display: flex;
+    padding: 50px;
+}
+
