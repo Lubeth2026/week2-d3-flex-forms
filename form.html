@@ -13,27 +13,32 @@
     <main>
         <section>
             <h2>Fill out Form</h2>
-            <form class="form" action="#">
-                <div class="column">
-                <div class="input" >
-                <label for="first">First Name</label>
-                <input type="text" name="first" id="first" placeholder="First">
-                </div>
-                <div class="input">
-                <label for="last">Last Name</label>
-                <input type="text" name="last" id="last" placeholder="Last">
-                </div>
-                </div>
-                <div class="column">
-                <div class="input">
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email" placeholder="Email" required aria-required="true"></div>
-                <div class="input" >
-                <label for="password">Password</label>
-                <input type="text" name="password" id="password" placeholder="Password" required aria-required="true" ></div>
-                </div>
-                <button>Submit The Form</button>
-            </form>
+          <form  class="form" action="#">
+            <div class="column">
+            <label for="first">First Name</label>
+            <input type="text" name="first" id="first" placeholder="First">
+
+            <label for="last">Last Name</label>
+            <input type="text" name="last" id="last" placeholder="Last">
+
+            <label for="user">User Name</label>
+            <input type="text" name="user" id="user" placeholder="User Name">
+            
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Email" required aria-required="true">
+            </div>
+            <div class="column">
+            <label for="password">Password</label>
+            <input type="text" name="password" id="password" placeholder="Password" required aria-required="true">
+
+            <label for="confirmation">Confirm Password</label>
+            <input type="text" name="confirmation" id="confirmation" placeholder="Confirm Password" required aria-required="true">
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Tell us a little about yourself?"></textarea>
+
+            <button>Submit The Form</button>
+            </div>  
         </section>
     </main>
     <footer>

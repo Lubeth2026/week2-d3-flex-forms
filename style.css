@@ -27,20 +27,18 @@ h2, footer {
     background-color: grey;
 }
 .form {
-display: flex;
-flex-wrap: wrap;
-margin-top: 200px;
-margin-bottom: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
 }
-.input {
+label {
     display: flex;
     flex-wrap: column;
     width: 300px;
 }
-
 .column {
-    flex-direction: column;
     display: flex;
-    padding: 50px;
+    flex-direction: column;
+    align-items: center;
 }
 
